@@ -1,1 +1,35 @@
-{"@context":["https://www.w3.org/ns/did/v1","https://w3id.org/security/v2","https://w3id.org/security/suites/secp256k1recovery-2020/v2"],"id":"did:web:kodratit.github.io:kodrat","verificationMethod":[{"id":"did:web:kodratit.github.io:kodrat#048f1a7ce51b3a3c0ad4a165110bfdbe6925642a4d0b627d35400c3d9c1546770d5f19defe655d79e81d2c94bd9b95d300b385de8f572a83ae8fac6d3f515c77ac","type":"EcdsaSecp256k1VerificationKey2019","controller":"did:web:kodratit.github.io:kodrat","publicKeyHex":"048f1a7ce51b3a3c0ad4a165110bfdbe6925642a4d0b627d35400c3d9c1546770d5f19defe655d79e81d2c94bd9b95d300b385de8f572a83ae8fac6d3f515c77ac"}],"authentication":["did:web:kodratit.github.io:kodrat#048f1a7ce51b3a3c0ad4a165110bfdbe6925642a4d0b627d35400c3d9c1546770d5f19defe655d79e81d2c94bd9b95d300b385de8f572a83ae8fac6d3f515c77ac"],"assertionMethod":["did:web:kodratit.github.io:kodrat#048f1a7ce51b3a3c0ad4a165110bfdbe6925642a4d0b627d35400c3d9c1546770d5f19defe655d79e81d2c94bd9b95d300b385de8f572a83ae8fac6d3f515c77ac"],"keyAgreement":[],"service":[{"id":"string-123","type":"DIDCommMessaging","serviceEndpoint":"http://localhost:3332/messaging","description":"string"}]}
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:kodratit.github.io:kodrat",
+  "verificationMethod": [
+    {
+      "id": "did:web:kodratit.github.io:kodrat#wzoVK5R2ynV_Xvy75-VXL3Ypqk0Sn_tOWEE2Bu4VyU8",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:kodratit.github.io:kodrat",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "kid": "wzoVK5R2ynV_Xvy75-VXL3Ypqk0Sn_tOWEE2Bu4VyU8",
+        "x": "g9xmVUtb2j94BsrtfsGC7GbvUhq6jpJNUwP050JEaBY"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:kodratit.github.io:kodrat#wzoVK5R2ynV_Xvy75-VXL3Ypqk0Sn_tOWEE2Bu4VyU8"
+  ],
+  "authentication": [
+    "did:web:kodratit.github.io:kodrat#wzoVK5R2ynV_Xvy75-VXL3Ypqk0Sn_tOWEE2Bu4VyU8"
+  ],
+  "capabilityInvocation": [
+    "did:web:kodratit.github.io:kodrat#wzoVK5R2ynV_Xvy75-VXL3Ypqk0Sn_tOWEE2Bu4VyU8"
+  ],
+  "capabilityDelegation": [
+    "did:web:kodratit.github.io:kodrat#wzoVK5R2ynV_Xvy75-VXL3Ypqk0Sn_tOWEE2Bu4VyU8"
+  ],
+  "keyAgreement": [
+    "did:web:kodratit.github.io:kodrat#wzoVK5R2ynV_Xvy75-VXL3Ypqk0Sn_tOWEE2Bu4VyU8"
+  ]
+}
